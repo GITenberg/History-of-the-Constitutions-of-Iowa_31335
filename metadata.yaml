@@ -1,0 +1,30 @@
+_repo: History-of-the-Constitutions-of-Iowa_31335
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Shambaugh, Benjamin Franklin
+    alias: Shambaugh, B. F. (Benjamin Franklin)
+    birthdate: 1871
+    deathdate: 1940
+    gutenberg_agent_id: '35160'
+    url: http://www.gutenberg.org/2009/agents/35160
+description: ''
+gutenberg_issued: '2010-02-21'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '31335'
+  lccn: 03002933
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Constitutions -- Iowa'
+- !lcc 'KF'
+- !lcsh 'Constitutional history -- Iowa'
+- !lcc 'JK'
+title: History of the Constitutions of Iowa
+url: http://www.gutenberg.org/ebooks/31335
