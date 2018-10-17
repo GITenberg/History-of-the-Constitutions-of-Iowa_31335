@@ -1,193 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/31335">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne3f8c8f971734109a5506fab05a98378">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Constitutional history -- Iowa</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:20</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N816d0a9d23304745ac73eac53fe78be1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nae43dc81f48f44e98d057d73dc277956">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98310</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbdab88a3af624e8a87436aaaf40369a1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284497</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:18</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N14f9755ab445406ebc24ee7b20eb0d88">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-22T04:33:32.652078</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284465</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N1bfb9477efe549e1b8a16cff8b31bca3">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159077</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9f3aba69001d4f81a2f411d7339eada3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-22T04:33:28.211534</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335-h/31335-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291735</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:18</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5f42f6d5d85d41df80f3742c3f6a3814">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-21</dcterms:issued>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:marc010>03002933</pgterms:marc010>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N35fb5282146b4ed3b6c0ec1d5c582bad">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97181</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N81891ed5f9c9467386fe9aac621b0d7b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N92a908d3295b47fb8a843c5bd97d7004">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/35160">
-        <pgterms:alias>Shambaugh, B. F. (Benjamin Franklin)</pgterms:alias>
-        <pgterms:name>Shambaugh, Benjamin Franklin</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1940</pgterms:deathdate>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N68a7e8bb71e34c85a45e8bb21d11e9a3">
-        <rdf:value>Constitutions -- Iowa</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</pgterms:downloads>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na4524fb63abd4894a0349a4e428993cf">
-        <rdf:value>KF</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N0749956d6cf64fb2ab8d483ff33abad3">
+      <rdf:Description rdf:nodeID="N43076610daa54da4a0b4eab40a421599">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448595</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T03:58:38.936378</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N05c8c8a8cb08474f9254b1e7e5acac23">
+          <rdf:Description rdf:nodeID="N7afd3521b58c405b9c212d60263f8ebb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T03:58:38.029392</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448608</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N83aee7e566c0488d9e8eed853ecb3bb0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-22T04:33:34.359355</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181924</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N46ef03cf8e2148c5b89c1886be907a45">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>JK</rdf:value>
+      <rdf:Description rdf:nodeID="Neccc484cd87147858542b3e5c5426f92">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Constitutions -- Iowa</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:title>History of the Constitutions of Iowa</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335-h/31335-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N093c0f8a628c4e23880560995895165e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291735</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-21</dcterms:issued>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119905</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf7c713b364734391bfc6613992ed8dc9">
+          <rdf:Description rdf:nodeID="N437604ee82c04b2ca42c8b97a5dc2e63">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T03:58:37.055412</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104463</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N90427046710b4f59b08da6eb30696256">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104464</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T03:58:36.965409</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd55127cdec694d799b52a3013ae7f8e8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>History of the Constitutions of Iowa</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc60a9a1ce50940d2824387489f360efe">
+        <rdf:value>JK</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf0597018545b4aa59f2f1bedaa24f7c7">
+        <rdf:value>Constitutional history -- Iowa</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na550c0e454d94a559d1583bf77de299e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>KF</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nebf5fc78a47748b2aeccf76deb86a212">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-29T18:23:48.382074</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N426894f65d8745fdabfec3d8fbaf5ea3">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:20</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97181</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.plucker">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/31335/31335-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-22T04:33:31.865864</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd44c96facadd466cb36dcf9aa96205a7">
+          <rdf:Description rdf:nodeID="Ndc512e4de9e6434ea2c93af635352a11">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152740</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1704f90f6eeb475d863ce8283dfd617d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98310</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-20T19:16:20</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/35160">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:birthdate>
+        <pgterms:alias>Shambaugh, B. F. (Benjamin Franklin)</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1940</pgterms:deathdate>
+        <pgterms:name>Shambaugh, Benjamin Franklin</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:marc010>03002933</pgterms:marc010>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284469</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfe89278e44c54e66851d19922386a181">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T03:58:36.624417</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/31335.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/31335"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11631</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T03:58:39.024374</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N384f3cf75f1c44b3a85e1a7c1969675d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
